@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: #1B1212;
+    --red: #FF1313;
+}
+*{
+    font-family: 'PT Sans Narrow', sans-serif;;
+}
+p{
+    font-size: 23px;
+}
+h2{
+    font-size: 45px !important;
+    font-weight: 600 !important;
+}
+.navbar{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+span{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.navbar .navbar-collapse{
+    justify-content: center;
+}
+.navbar .navbar-collapse .nav-link{
+    color: var(--black) !important;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-left:  30px;
+    padding: 0;
+}
+.navbar .navbar-collapse .nav-link:hover{
+    color: var(--red) !important;
+    border-bottom: 2px solid var(--red);
+    transition: linear 50ms;
+   
+}
+/*****************carousel***************/
+
+
+#carousel_section .row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#carousel_section .img1{
+    width: 100% !important;
+    height: 450px !important;
+}
+
+/*****************Responsive***********/
+@media(max-width:766px){
+    .navbar .navbar-collapse .nav-link{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .navbar .navbar-collapse .nav-link:hover{
+        border-bottom: none;
+    }
+}
