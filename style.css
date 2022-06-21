@@ -46,13 +46,15 @@ span{
 
 
 #carousel_section .row{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 70px;
 }
 #carousel_section .img1{
     width: 100% !important;
     height: 450px !important;
+   
 }
+
 
 /*****************Responsive***********/
 @media(max-width:766px){
