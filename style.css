@@ -40,6 +40,7 @@ span{
 .navbar .navbar-collapse .nav-link:hover{
     color: var(--red) !important;
     border-bottom: 2px solid var(--red);
+    margin-top: -9px;
     transition: linear 50ms;
    
 }
