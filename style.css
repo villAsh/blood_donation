@@ -61,7 +61,8 @@ span{
     background-color: var(--gray);
     padding: 20px 10px;
 }
-#media span{
+#media span,
+#achievements span{
     color: var(--red);
     font-size: 45px !important;
     font-weight: 600 !important;
@@ -69,7 +70,8 @@ span{
 #media .media_img{
     height: 220px !important;
 }
-#media h3{
+#media h3,
+#achievements h3{
     font-size: 39px;
     font-weight: 600;
 }
