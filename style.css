@@ -13,7 +13,7 @@ body{
     font-family: 'PT Sans Narrow', sans-serif;;
 }
 p{
-    font-size: 23px;
+    font-size: 19px;
 }
 h2{
     font-size: 45px !important;
@@ -72,9 +72,42 @@ span{
 }
 #media h3,
 #achievements h3{
-    font-size: 39px;
+    font-size: 36px;
     font-weight: 600;
 }
+/******************achievements**********/
+#achievements .bx{
+    font-size: 86px;
+}
+
+
+/****************icons**********/
+
+.bxs-droplet-half{
+    color: var(--red);
+}
+.bxs-heart{
+    color: blue;
+}
+.bxs-user-plus{
+    color: var(--black);
+}
+.bx-donate-blood{
+    color: brown;
+}
+.bxl-gmail{
+    color: var(--red);
+    background-color: #F0F0F0;
+    font-size: 25px;
+    padding: 3px !important;
+}
+.bxs-phone{
+    color: blue;
+    background-color: #F0F0F0;
+    font-size: 25px;
+    padding: 3px !important;
+}
+
 /*****************Responsive***********/
 @media(max-width:766px){
     .navbar .navbar-collapse .nav-link{
