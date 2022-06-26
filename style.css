@@ -44,15 +44,7 @@ span{
     transition: linear 50ms;
    
 }
-.about_us{
-    background: url("./images/section_1_bgimg.jpg");
-    background-position: center;
-    background-size: cover;
-    margin-top: 100px;
-    width: 100%;
-    height: 70vh;
-}
-  
+
 /*****************carousel***************/
 
 #carousel_section{
